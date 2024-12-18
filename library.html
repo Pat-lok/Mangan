@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/fontawesome-free-6.6.0-web/css/all.css">
+    <title>MANGAN</title>
+    <link href="bootstrap5-3.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&family=Covered+By+Your+Grace&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid d-flex align-items-center justify-content-center">
+                <a class="navbar-brand mx-4" href="#"> <img src="image/logo.png" alt="logo" class="logo" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto p-3 mb-lg-0">
+                        <li class="nav-item mx-4">
+                            <a class="nav-link fw-bold fs-6 mt-3 md-red" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link active fw-bold fs-4 mt-2" aria-current="page" href="#">Library</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link fw-bold fs-6 mt-3 md-red" href="#">Explore</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link fw-bold fs-6 mt-3 md-red" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item mx-5">
+                            <form class="d-flex mx-4 px-5 me-4 mt-3" role="search">
+                                <input class="form-control me-4" type="search" placeholder="Search" aria-label="Search">
+                                <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                            </form>
+                        <li class="nav-item mx-4 px-5 me-4">
+                            <a class="nav-link" href="#"><img src="image/account.jpg" alt="logo" class="account" /></a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="library-body">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12">
+                    <nav>
+                        <div class="nav nav-tabs justify-content-center mt-3" id="nav-tab" role="tablist">
+                            <button class="nav-link active fw-bold fs-5 me-2 me-md-4" id="nav-home-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                aria-selected="true">All</button>
+                            <button class="nav-link fw-bold fs-5 me-2 me-md-4" id="nav-Ongoing-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-Ongoing" type="button" role="tab" aria-controls="nav-Ongoing"
+                                aria-selected="false">Ongoing</button>
+                            <button class="nav-link fw-bold fs-5 me-2 me-md-4" id="nav-Unfinished-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-Unfinished" type="button" role="tab" aria-controls="nav-Unfinished"
+                                aria-selected="false">Unfinished</button>
+                            <button class="nav-link fw-bold fs-5 me-2 me-md-4" id="nav-finished-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-finished" type="button" role="tab" aria-controls="nav-finished"
+                                aria-selected="false">Finished</button>
+                            <button class="nav-link fw-bold fs-5 me-2 me-md-4" id="nav-watchlist-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-watchlist" type="button" role="tab" aria-controls="nav-watchlist"
+                                aria-selected="false">Watchlist</button>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                            aria-labelledby="nav-home-tab" tabindex="0">
+                            <section class="container py-5">
+                                <div class="row mt-3">
+                                    <div class="col-12 col-lg-3">
+                                        <div class="card p-3 shadow align-items-center">
+                                            <img src="image/kami.jpg" alt="card"
+                                                class="cardi img-fluid ms-auto d-block" />
+                                            <h3 class="card-title my-3 white fw-regular">Kamisama Kiss</h3>
+                                            <h4 class="light-red fw-regular">Julietta Suzuk</h4>
+                                            <p class="card-text white">
+                                                Nanami is left homeless after her father runs away due to debts. When
+                                                she saves a man named Mikage from dogs, he gives her his house which
+                                                turns out to be a shrine and she becomes the new deity...
+                                            </p>
+                                            <div class="d-flex">
+                                                <p class="shoujo px-1 fw-regular">Shoujo</p>
+                                                <p class="shoujo px-1 mx-2 fw-regular">Romance</p>
+                                                <p class="shounen px-1 fw-regular">Fantasy</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-3">
+                                        <div class="card p-3 shadow align-items-center">
+                                            <img src="image/clover.png" alt="card"
+                                                class="cardi img-fluid ms-auto d-block " />
+                                            <h3 class="card-title my-3 white fw-regular">Black Clover</h3>
+                                            <h4 class="light-red fw-regular">Yūki Tabata</h4>
+                                            <p class="card-text white">
+                                                Asta, a young boy born without any magic power who is given a rare
+                                                grimoire that grants him anti-magic abilities. With his fellow mages,
+                                                Asta plans to become the next Wizard King...
+                                            </p>
+                                            <div class="d-flex">
+                                                <p class="shounen px-1 mx-2 fw-regular">Shounen</p>
+                                                <p class="seinen px-1 fw-regular">High Fantasy</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-3">
+                                        <div class="card p-3 shadow align-items-center">
+                                            <img src="image/black-butler.jpg" alt="card"
+                                                class="cardi img-fluid ms-auto d-block " />
+                                            <h3 class="card-title my-3 white fw-regular">Black Butler</h3>
+                                            <h4 class="light-red fw-regular">Yana Toboso</h4>
+                                            <p class="card-text white">
+                                                Ciel Phantomhive, the last surviving member of an aristocratic family,
+                                                as he sells his soul to his demon butler in exchange for the ability to
+                                                take revenge on his parents' murderers...
+                                            </p>
+                                            <div class="d-flex">
+                                                <p class="shounen px-1 fw-regular">Dark Fantasy</p>
+                                                <p class="josei px-1 mx-2 fw-regular">Josei</p>
+                                                <p class="seinen px-1 fw-regular">Occult</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-3">
+                                        <div class="card p-3 shadow align-items-center">
+                                            <img src="image/food-wars.png" alt="card"
+                                                class="cardi img-fluid ms-auto d-block " />
+                                            <h3 class="card-title my-3 white fw-regular">Food Wars!</h3>
+                                            <h4 class="light-red fw-regular">Food Wars!</h4>
+                                            <p class="card-text white">
+                                                Teenager Soma Yukihira aspires to become a full-time chef in his father
+                                                Joichiro's family restaurant, "Restaurant Yukihira", and to surpass his
+                                                father's culinary skills...
+                                            </p>
+                                            <div class="d-flex">
+                                                <p class="shounen px-1  fw-regular">Shounen</p>
+                                                <p class="josei px-1 mx-2 fw-regular">Cooking</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-12 col-lg-3">
+                                        <div class="card p-3 shadow align-items-center">
+                                            <img src="image/tokyo.jpg" alt="card"
+                                                class="cardi img-fluid ms-auto d-block" />
+                                            <h3 class="card-title my-3 white fw-regular">Tokyo Revengers</h3>
+                                            <h4 class="light-red fw-regular">Ken Wakui</h4>
+                                            <p class="card-text white">
+                                                Takemichi lives an unsatisfying life right up until his death. Waking up
+                                                12 years in the past, he reckons with the eventual fate of his friends
+                                                and tries to prevent an unfortunate future...
+                                            </p>
+                                            <p class="shounen px-1 fw-regular">Shounen</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-3">
+                                        <div class="card p-3 shadow align-items-center">
+                                            <img src="image/bungou.png" alt="card"
+                                                class="cardi img-fluid ms-auto d-block " />
+                                            <h3 class="card-title my-3 white fw-regular">Bungo Stray Dogs</h3>
+                                            <h4 class="light-red fw-regular">Kafka Asagiri</h4>
+                                            <p class="card-text white">
+                                                Atsushi Nakajima, joins others gifted with supernatural powers to
+                                                accomplish different tasks including solving mysteries and carrying out
+                                                missions assigned by the agency...
+                                            </p>
+                                            <div class="d-flex">
+                                                <p class="seinen px-1 mx-2 fw-regular">Seinen</p>
+                                                <p class="shounen px-1 fw-regular">Action</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-3">
+                                        <div class="card p-3 shadow align-items-center">
+                                            <img src="image/promised.jpg" alt="card"
+                                                class="cardi img-fluid ms-auto d-block " />
+                                            <h3 class="card-title my-3 white fw-regular">Promised Neverland</h3>
+                                            <h4 class="light-red fw-regular">Kaiu Shirai</h4>
+                                            <p class="card-text white">
+                                                A group of orphaned children in their plan to escape from their
+                                                orphanage, after learning the dark truth behind their existence and the
+                                                purpose of the orphanage...
+                                            </p>
+                                            <div class="d-flex">
+                                                <p class="shounen px-1  fw-regular">Shounen</p>
+                                                <p class="shounen px-1 mx-2 fw-regular">Dark Fantasy</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-3">
+                                        <div class="card p-3 shadow align-items-center">
+                                            <img src="image/moriarty.jpg" alt="card"
+                                                class="cardi img-fluid ms-auto d-block " />
+                                            <h3 class="card-title my-3 white fw-regular">Moriarty the Patriot</h3>
+                                            <h4 class="light-red fw-regular">Ryosuke Takeuchi</h4>
+                                            <p class="card-text white">
+                                                William James Moriarty lives as a regular noble while also being a
+                                                consultant for the common folk to solve their problems. However, deep
+                                                inside him lies a desire to destroy...
+                                            </p>
+                                            <div class="d-flex">
+                                                <p class="shounen px-1  fw-regular">Shounen</p>
+                                                <p class="seinen px-1 mx-2 fw-regular">Hardboiled</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-12 col-lg-3">
+                                        <div class="card p-3 shadow align-items-center">
+                                            <img src="image/classroom.png" alt="card"
+                                                class="cardi img-fluid ms-auto d-block" />
+                                            <h3 class="card-title my-3 white fw-regular text-center">Assassination
+                                                Classroom</h3>
+                                            <h4 class="light-red fw-regular">Yusei Matsui</h4>
+                                            <p class="card-text white">
+                                                the daily life of an extremely powerful octopus-like being working as a
+                                                junior high homeroom teacher, and his students dedicated to the task of
+                                                assassinating him...
+                                            </p>
+                                            <p class="shounen px-1 fw-regular">Shounen</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-3">
+                                        <div class="card p-3 shadow align-items-center">
+                                            <img src="image/jjk.jpg" alt="card"
+                                                class="cardi img-fluid ms-auto d-block " />
+                                            <h3 class="card-title my-3 white fw-regular">Jujutsu Kaisen</h3>
+                                            <h4 class="light-red fw-regular">Gege Akutami</h4>
+                                            <p class="card-text white">
+                                                Yuji Itadori, an ordinary boy who crosses paths with Megumi Fushiguro, a
+                                                Jujutsu Sorcerer searching for a powerful Cursed Object known as Ryomen
+                                                Sukuna's finger...
+                                            </p>
+                                            <div class="d-flex">
+                                                <p class="shounen px-1 mx-2 fw-regular">Shounen</p>
+                                                <p class="shounen px-1 fw-regular">Dark Fantasy</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-3">
+                                        <div class="card p-3 shadow align-items-center">
+                                            <img src="image/mha.jpg" alt="card"
+                                                class="cardi img-fluid ms-auto d-block " />
+                                            <h3 class="card-title my-3 white fw-regular">My Hero Academia</h3>
+                                            <h4 class="light-red fw-regular">Kōhei Horikoshi</h4>
+                                            <p class="card-text white">
+                                                Izuku Midoriya, a boy born without superpowers in a world where they are
+                                                the norm, but who still dreams of becoming a superhero himself...
+                                            </p>
+                                            <div class="d-flex">
+                                                <p class="shounen px-1  fw-regular">Shounen</p>
+                                                <p class="shounen px-1 mx-2 fw-regular">Action</p>
+                                                <p class="shounen px-1 fw-regular">Super Hero</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-3">
+                                        <div class="card p-3 shadow align-items-center">
+                                            <img src="image/oshi no ko.png" alt="card"
+                                                class="cardi img-fluid ms-auto d-block " />
+                                            <h3 class="card-title my-3 white fw-regular">[Oshi no Ko]</h3>
+                                            <h4 class="light-red fw-regular">Aka Akasaka</h4>
+                                            <p class="card-text white">
+                                                A doctor and his recently deceased patient who were reborn as twins to a
+                                                famous Japanese pop idol and navigate the highs and lows of the
+                                                country's entertainment industry...
+                                            </p>
+                                            <p class="seinen px-1 fw-regular">Seinen</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="tab-pane fade" id="nav-Ongoing" role="tabpanel" aria-labelledby="nav-Ongoing-tab"
+                            tabindex="0">
+                            <section class="container py-5">
+                                <div class="row mt-3">
+                                    <div class="col-12 col-lg-3">
+                                        <div class="card p-3 shadow align-items-center">
+                                            <img src="image/bungou.png" alt="card"
+                                                class="cardi img-fluid ms-auto d-block " />
+                                            <h3 class="card-title my-3 white fw-regular">Bungo Stray Dogs</h3>
+                                            <h4 class="light-red fw-regular">Kafka Asagiri</h4>
+                                            <p class="card-text white">
+                                                Atsushi Nakajima, joins others gifted with supernatural powers to
+                                                accomplish different tasks including solving mysteries and carrying out
+                                                missions assigned by the agency...
+                                            </p>
+                                            <div class="d-flex">
+                                                <p class="seinen px-1 mx-2 fw-regular">Seinen</p>
+                                                <p class="shounen px-1 fw-regular">Action</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-3">
+                                        <div class="card p-3 shadow align-items-center">
+                                            <img src="image/jjk.jpg" alt="card"
+                                                class="cardi img-fluid ms-auto d-block " />
+                                            <h3 class="card-title my-3 white fw-regular">Jujutsu Kaisen</h3>
+                                            <h4 class="light-red fw-regular">Gege Akutami</h4>
+                                            <p class="card-text white">
+                                                Yuji Itadori, an ordinary boy who crosses paths with Megumi
+                                                Fushiguro, a Jujutsu Sorcerer searching for a powerful Cursed
+                                                Object known as Ryomen Sukuna's finger...
+                                            </p>
+                                            <div class="d-flex">
+                                                <p class="shounen px-1 mx-2 fw-regular">Shounen</p>
+                                                <p class="shounen px-1 fw-regular">Dark Fantasy</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-3">
+                                        <div class="card p-3 shadow align-items-center">
+                                            <img src="image/mha.jpg" alt="card"
+                                                class="cardi img-fluid ms-auto d-block " />
+                                            <h3 class="card-title my-3 white fw-regular">My Hero Academia</h3>
+                                            <h4 class="light-red fw-regular">Kōhei Horikoshi</h4>
+                                            <p class="card-text white">
+                                                Izuku Midoriya, a boy born without superpowers in a world where
+                                                they are the norm, but who still dreams of becoming a superhero
+                                                himself...
+                                            </p>
+                                            <div class="d-flex">
+                                                <p class="shounen px-1  fw-regular">Shounen</p>
+                                                <p class="shounen px-1 mx-2 fw-regular">Action</p>
+                                                <p class="shounen px-1 fw-regular">Super Hero</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-3">
+                                        <div class="card p-3 shadow align-items-center">
+                                            <img src="image/oshi no ko.png" alt="card"
+                                                class="cardi img-fluid ms-auto d-block " />
+                                            <h3 class="card-title my-3 white fw-regular">[Oshi no Ko]</h3>
+                                            <h4 class="light-red fw-regular">Aka Akasaka</h4>
+                                            <p class="card-text white">
+                                                A doctor and his recently deceased patient who were reborn as
+                                                twins to a famous Japanese pop idol and navigate the highs and
+                                                lows of the country's entertainment industry...
+                                            </p>
+                                            <p class="seinen px-1 fw-regular">Seinen</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-12 col-lg-3">
+                                        <div class="card p-3 shadow align-items-center">
+                                            <img src="image/food-wars.png" alt="card"
+                                                class="cardi img-fluid ms-auto d-block " />
+                                            <h3 class="card-title my-3 white fw-regular">Food Wars!</h3>
+                                            <h4 class="light-red fw-regular">Food Wars!</h4>
+                                            <p class="card-text white">
+                                                Teenager Soma Yukihira aspires to become a full-time chef in his father
+                                                Joichiro's family restaurant, "Restaurant Yukihira", and to surpass his
+                                                father's culinary skills...
+                                            </p>
+                                            <div class="d-flex">
+                                                <p class="shounen px-1  fw-regular">Shounen</p>
+                                                <p class="josei px-1 mx-2 fw-regular">Cooking</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="tab-pane fade" id="nav-Unfinished" role="tabpanel" aria-labelledby="nav-Unfinished-tab"
+                            tabindex="0"><section class="container py-5">
+                                <div class="row mt-3">
+                                    <div class="col-12 col-lg-3">
+                                        <div class="card p-3 shadow align-items-center">
+                                            <img src="image/black-butler.jpg" alt="card"
+                                                class="cardi img-fluid ms-auto d-block " />
+                                            <h3 class="card-title my-3 white fw-regular">Black Butler</h3>
+                                            <h4 class="light-red fw-regular">Yana Toboso</h4>
+                                            <p class="card-text white">
+                                                Ciel Phantomhive, the last surviving member of an aristocratic family,
+                                                as he sells his soul to his demon butler in exchange for the ability to
+                                                take revenge on his parents' murderers...
+                                            </p>
+                                            <div class="d-flex">
+                                                <p class="shounen px-1 fw-regular">Dark Fantasy</p>
+                                                <p class="josei px-1 mx-2 fw-regular">Josei</p>
+                                                <p class="seinen px-1 fw-regular">Occult</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-3">
+                                        <div class="card p-3 shadow align-items-center">
+                                            <img src="image/promised.jpg" alt="card"
+                                                class="cardi img-fluid ms-auto d-block " />
+                                            <h3 class="card-title my-3 white fw-regular">Promised Neverland</h3>
+                                            <h4 class="light-red fw-regular">Kaiu Shirai</h4>
+                                            <p class="card-text white">
+                                                A group of orphaned children in their plan to escape from their
+                                                orphanage, after learning the dark truth behind their existence and the
+                                                purpose of the orphanage...
+                                            </p>
+                                            <div class="d-flex">
+                                                <p class="shounen px-1  fw-regular">Shounen</p>
+                                                <p class="shounen px-1 mx-2 fw-regular">Dark Fantasy</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-3">
+                                        <div class="card p-3 shadow align-items-center">
+                                            <img src="image/classroom.png" alt="card"
+                                                class="cardi img-fluid ms-auto d-block" />
+                                            <h3 class="card-title my-3 white fw-regular text-center">Assassination
+                                                Classroom</h3>
+                                            <h4 class="light-red fw-regular">Yusei Matsui</h4>
+                                            <p class="card-text white">
+                                                the daily life of an extremely powerful octopus-like being working as a
+                                                junior high homeroom teacher, and his students dedicated to the task of
+                                                assassinating him...
+                                            </p>
+                                            <p class="shounen px-1 fw-regular">Shounen</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </section>
+                            </div>
+                        <div class="tab-pane fade" id="nav-finished" role="tabpanel" aria-labelledby="nav-finished-tab"
+                            tabindex="0"><section class="container py-5">
+                            <div class="row mt-3">
+                                <div class="col-12 col-lg-3">
+                                    <div class="card p-3 shadow align-items-center">
+                                        <img src="image/tokyo.jpg" alt="card"
+                                            class="cardi img-fluid ms-auto d-block" />
+                                        <h3 class="card-title my-3 white fw-regular">Tokyo Revengers</h3>
+                                        <h4 class="light-red fw-regular">Ken Wakui</h4>
+                                        <p class="card-text white">
+                                            Takemichi lives an unsatisfying life right up until his death. Waking up
+                                            12 years in the past, he reckons with the eventual fate of his friends
+                                            and tries to prevent an unfortunate future...
+                                        </p>
+                                        <p class="shounen px-1 fw-regular">Shounen</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-3">
+                                    <div class="card p-3 shadow align-items-center">
+                                        <img src="image/moriarty.jpg" alt="card"
+                                            class="cardi img-fluid ms-auto d-block " />
+                                        <h3 class="card-title my-3 white fw-regular">Moriarty the Patriot</h3>
+                                        <h4 class="light-red fw-regular">Ryosuke Takeuchi</h4>
+                                        <p class="card-text white">
+                                            William James Moriarty lives as a regular noble while also being a
+                                            consultant for the common folk to solve their problems. However, deep
+                                            inside him lies a desire to destroy...
+                                        </p>
+                                        <div class="d-flex">
+                                            <p class="shounen px-1  fw-regular">Shounen</p>
+                                            <p class="seinen px-1 mx-2 fw-regular">Hardboiled</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </section>
+                        </div>
+                        <div class="tab-pane fade" id="nav-watchlist" role="tabpanel" aria-labelledby="nav-watchlist-tab"
+                            tabindex="0">
+                            <section class="container py-5">
+                                <div class="row mt-3">
+                                    <div class="col-12 col-lg-3">
+                                        <div class="card p-3 shadow align-items-center">
+                                            <img src="image/kami.jpg" alt="card"
+                                                class="cardi img-fluid ms-auto d-block" />
+                                            <h3 class="card-title my-3 white fw-regular">Kamisama Kiss</h3>
+                                            <h4 class="light-red fw-regular">Julietta Suzuk</h4>
+                                            <p class="card-text white">
+                                                Nanami is left homeless after her father runs away due to debts. When
+                                                she saves a man named Mikage from dogs, he gives her his house which
+                                                turns out to be a shrine and she becomes the new deity...
+                                            </p>
+                                            <div class="d-flex">
+                                                <p class="shoujo px-1 fw-regular">Shoujo</p>
+                                                <p class="shoujo px-1 mx-2 fw-regular">Romance</p>
+                                                <p class="shounen px-1 fw-regular">Fantasy</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-3">
+                                        <div class="card p-3 shadow align-items-center">
+                                            <img src="image/clover.png" alt="card"
+                                                class="cardi img-fluid ms-auto d-block " />
+                                            <h3 class="card-title my-3 white fw-regular">Black Clover</h3>
+                                            <h4 class="light-red fw-regular">Yūki Tabata</h4>
+                                            <p class="card-text white">
+                                                Asta, a young boy born without any magic power who is given a rare
+                                                grimoire that grants him anti-magic abilities. With his fellow mages,
+                                                Asta plans to become the next Wizard King...
+                                            </p>
+                                            <div class="d-flex">
+                                                <p class="shounen px-1 mx-2 fw-regular">Shounen</p>
+                                                <p class="seinen px-1 fw-regular">High Fantasy</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <section class="container py-5 text-center">
+            <div class="row footer-items mt-3 text-center">
+                <div class="col-12 col-lg-3">
+                    <a class="footer-items fs-4 mt-2 white" style="text-decoration: none; opacity: 0.5;"
+                        href="#">Help</a>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <a class="footer-items fs-4 mt-2 white" style="text-decoration: none; opacity: 0.5;" href="#">News
+                        and Events</a>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <a class="footer-items fs-4 mt-2 white" style="text-decoration: none; opacity: 0.5;"
+                        href="#">Copyrights</a>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <a class="footer-items fs-4 mt-2 white" style="text-decoration: none; opacity: 0.5;"
+                        href="#">Community</a>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="social-media-icons text-center">
+                        <a href="#"> <i class="fa-brands fa-google-play md-red mx-4"></i></a>
+                        <a href="#"> <i class="fa-brands fa-app-store md-red mx-4"></i></a>
+                        <a href="#"> <i class="fa-brands fa-instagram md-red mx-4"></i></a>
+                        <a href="#"> <i class="fa-brands fa-twitter md-red mx-4"></i></a>
+                        <a href="#"> <i class="fa-brands fa-discord md-red mx-4"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center mt-5">
+                <div class="col-12">
+                    <p class="footer-text white text-center justify-content-center">
+                        Lorem ipsum odor amet, consectetuer adipiscing elit. Class taciti id urna molestie lacus maximus
+                        dapibus volutpat. Pellentesque tempor consectetur nascetur lacinia ligula neque. Phasellus
+                        aenean porttitor conubia; vivamus curae ante. Volutpat feugiat maecenas sagittis sit,
+                    </p>
+                </div>
+            </div>
+    </footer>
+    </div>
+
+
+    <script src="bootstrap5-3.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
