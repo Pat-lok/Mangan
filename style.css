@@ -1,7 +1,7 @@
 body
 {
     font-family: "Baloo Paaji 2" , sans-serif;
-    background-image: linear-gradient(0deg, #E9E9E9, #FFB4B4);
+    background-image: linear-gradient(180deg, #29000C, #8F002A);
 }
 .navbar
 {
@@ -18,10 +18,15 @@ body
 }
 .navbar-nav .nav-link.active{
     color: #FFBDBD;
+    transform: scale(1.3);
 }
 .library-body{
     background-image: linear-gradient(180deg, #29000C, #8F002A);
 }
+.explore-body{
+    background-image: linear-gradient(180deg, #29000C, #8F002A);
+}
+
 .white{
     color: #ffffff;
 }
@@ -34,12 +39,15 @@ body
 .maroon{
     color: #800000;
 }
-.second-section{
-    background-image: linear-gradient(0deg, #29000C, #8F002A);
+.dark-red{
+    color: #29000C;
 }
-.forth-section{
+.first-section{
+    background-image: linear-gradient(0deg, #e7aaaa, #FFB4B4);
+}
+.third-section{
     padding-bottom: 35px;
-    background-image: linear-gradient(180deg, #29000C, #8F002A);
+    background-image: linear-gradient(0deg, #ecdddd, #FFB4B4);
 }
 .forth-section .card{
     width: auto;
@@ -72,7 +80,7 @@ body
     border-radius: 4px;
 }
 .mangaka{
-    border-radius: 200px;
+    border-radius: 100%;
     width: 185px;
     height: 185px;
 }
@@ -99,6 +107,45 @@ footer{
 }
 .library-body .nav-link.active{
     background-color: #FBB9B9;
+}
+.opa{
+    background-color: #FFBDBD95;
+}
+.account-first-section{
+    background-image: url(image/Unohana2.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.dropdown{
+    height: 50px;
+    width: 80px;
+}
+.dropdown.active{
+    color: #FF6C6C;
+}
+.account-pic{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+.account-info{
+    margin-top: 27%;
+}
+.account-second-section .card{
+    height: auto;
+    width: auto;
+    border: 5px solid #FBB9B9;
+    border-radius: 20px;
+}
+.lists{
+    height: 284px;
+    width: 266px;
+}
+.favorits{
+    height: 310px;
+    width: 217px;
+    border-radius: 20px;
 }
 /* .navbar-brand,
 .text-primary {
