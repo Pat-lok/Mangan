@@ -147,6 +147,41 @@ footer{
     width: 217px;
     border-radius: 20px;
 }
+.manga-first-section{
+    background-image: url(image/Bungou.Stray.Dogs.full.4097633.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.manga-title{
+    font-size: 50px;
+}
+.badge{
+    font-size: 30px;
+    background-color: white;
+    color: #29000C;
+    border-radius: 30px;
+}
+.icons{
+    font-size: 40px;
+}
+.manga-info, .manga-des{
+    font-size: 25px;
+}
+.icons.active, .icons:hover{
+    color: #FF6C6C;
+}
+.manga-third-section .card{
+    width: auto;
+    height: auto;
+}
+.manga-third-section .nav-link{
+    background-color: #FFBDBD50;
+    color: #29000C;
+}
+.manga-third-section .nav-link.active{
+    background-color: #FBB9B9;
+}
 /* .navbar-brand,
 .text-primary {
     color: #ffa0a0 !important;
