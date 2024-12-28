@@ -1,212 +1,271 @@
-body
-{
-    font-family: "Baloo Paaji 2" , sans-serif;
+body {
+    font-family: "Baloo Paaji 2", sans-serif;
     background-image: linear-gradient(180deg, #29000C, #8F002A);
 }
-.navbar
-{
+
+.navbar {
     background-image: linear-gradient(90deg, #29000C, #8F002A);
 }
-.logo{
+
+.logo {
     height: 52px;
     width: 188px;
 }
-.account{
+
+.account {
     height: 48px;
     width: 48px;
     border-radius: 30px;
 }
-.navbar-nav .nav-link.active{
+
+.navbar-nav .nav-link.active {
     color: #FFBDBD;
     transform: scale(1.3);
 }
-.library-body{
-    background-image: linear-gradient(180deg, #29000C, #8F002A);
-}
-.explore-body{
+
+.library-body {
     background-image: linear-gradient(180deg, #29000C, #8F002A);
 }
 
-.white{
+
+.white {
     color: #ffffff;
 }
-.light-red{
+
+.light-red {
     color: #FFBDBD;
 }
-.md-red{
+
+.md-red {
     color: #FF6C6C;
 }
-.maroon{
+
+.maroon {
     color: #800000;
 }
-.dark-red{
+
+.dark-red {
     color: #29000C;
 }
-.first-section{
+
+.first-section {
     background-image: linear-gradient(0deg, #e7aaaa, #FFB4B4);
 }
-.third-section{
+
+.third-section {
     padding-bottom: 35px;
     background-image: linear-gradient(0deg, #ecdddd, #FFB4B4);
 }
-.forth-section .card{
+
+.forth-section .card {
     width: auto;
     height: auto;
 }
-.card{
+
+.card {
     background-color: transparent;
     width: 297px;
-    height: 750px;}
-.shounen{
+    height: 750px;
+}
+
+.shounen {
     background-color: #FFBDBD;
     border-radius: 4px;
 }
-.shoujo{
+
+.shoujo {
     background-color: #FDB4FF;
     border-radius: 4px;
 }
-.josei{
+
+.josei {
     background-color: #FFE68B;
     border-radius: 4px;
 }
-.cardi{
+
+.cardi {
     border-radius: 5px;
     width: 314px;
     height: 410px;
-    
+
 }
-.seinen{
+
+.seinen {
     background-color: #B4D2FF;
     border-radius: 4px;
 }
-.mangaka{
+
+.mangaka {
     border-radius: 100%;
     width: 185px;
     height: 185px;
 }
-footer{
+
+footer {
     background-color: #29000C;
 }
-.social-media-icons{
+
+.social-media-icons {
     font-size: 30px;
 }
-.social-media-icons :hover{
+
+.social-media-icons :hover {
     transform: scale(1.3);
     color: #FFBDBD;
 }
-.footer-items :hover{
+
+.footer-items :hover {
     color: #FF6C6C;
 }
-.footer-text{
+
+.footer-text {
     font-size: 12px;
     opacity: 0.5;
 }
-.library-body .nav-link{
+
+.library-body .nav-link {
     background-color: #FFBDBD50;
     color: #29000C;
 }
-.library-body .nav-link.active{
+
+.library-body .nav-link.active {
     background-color: #FBB9B9;
 }
-.opa{
+
+.opa {
     background-color: #FFBDBD95;
 }
-.account-first-section{
+
+.account-first-section {
     background-image: url(image/Unohana2.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
-.dropdown{
+
+.dropdown {
     height: 50px;
     width: 80px;
 }
-.dropdown.active{
+
+.dropdown.active {
     color: #FF6C6C;
 }
-.account-pic{
+
+.account-pic {
     height: 200px;
     width: 200px;
     border-radius: 100%;
 }
-.account-info{
+
+.account-info {
     margin-top: 27%;
 }
-.account-second-section .card{
+
+.account-second-section .card {
     height: auto;
     width: auto;
     border: 5px solid #FBB9B9;
     border-radius: 20px;
 }
-.lists{
+
+.lists {
     height: 284px;
     width: 266px;
 }
-.favorits{
+
+.favorits {
     height: 310px;
     width: 217px;
     border-radius: 20px;
 }
-.manga-first-section{
+
+.manga-first-section {
     background-image: url(image/Bungou.Stray.Dogs.full.4097633.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
-.manga-title{
+
+.manga-title {
     font-size: 50px;
 }
-.badge{
+
+.badge {
     font-size: 30px;
     background-color: white;
     color: #29000C;
     border-radius: 30px;
 }
-.icons{
+
+.icons {
     font-size: 40px;
 }
-.manga-info, .manga-des{
+
+.manga-info,
+.manga-des {
     font-size: 25px;
 }
-.icons.active, .icons:hover{
+
+.icons.active,
+.icons:hover {
     color: #FF6C6C;
 }
-.manga-third-section .card{
+
+.manga-third-section .card {
     width: auto;
     height: auto;
 }
-.manga-third-section .nav-link{
+
+.manga-third-section .nav-link {
     background-color: #FFBDBD50;
     color: #29000C;
 }
-.manga-third-section .nav-link.active{
+
+.manga-third-section .nav-link.active {
     background-color: #FBB9B9;
 }
-.dropdown-toggle::after{
+
+.dropdown-toggle::after {
     display: none;
 }
-.manga-read{
+
+.manga-read {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.comment-btn{
+
+.comment-btn {
     background-color: #FBB9B9;
     border-radius: 10px;
     color: #29000C;
     font-size: 40px;
 }
-.comment-btn:hover{
+
+.comment-btn:hover {
     background-color: #FF6C6C;
 }
-.offcanvas-start{
+
+.offcanvas-start {
     background-color: #33020290;
 }
-.incomment:hover{
+
+.incomment:hover {
     color: #FF6C6C;
 }
-#myChart, #myChart2{
+
+#myChart,
+#myChart2 {
     color: #ecdddd;
     background-color: #FFE68B20;
     border-color: #FF6C6C;
+}
+
+.explore-first-section {
+    justify-items: center;
+}
+
+.nav-link {
+    border-radius: 5px;
 }
